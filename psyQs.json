@@ -1,0 +1,802 @@
+[{
+  
+  "text": "How often do you find your mind racing with thoughts, making it difficult to focus?",
+  "options": [
+    {
+      "text": "Racing thoughts and restlessness",
+      "condition": [
+        "Attention Deficit Hyperactivity Disorder (ADHD)"
+      ]
+      
+    },
+    {
+      "text": "Flashbacks and emotional numbness",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Mood swings and impulsive behavior",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "When facing challenges, how do you typically react?",
+  "options": [
+    {
+      "text": "Overwhelmed with worry and fear",
+      "condition": [
+        "Anxiety Disorder"
+      ]
+      
+    },
+    {
+      "text": "Extreme irritability and anger",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)",
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "Experiencing heightened stress and tension",
+      "condition": [
+        "Anxiety Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How do you cope with stress or pressure in your daily life?",
+  "options": [
+    {
+      "text": "Persistent feelings of sadness and hopelessness",
+      "condition": [
+        "Depression"
+      ]
+      
+    },
+    {
+      "text": "Avoidance and emotional detachment",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Impulsive behaviors and reckless decision-making",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+    
+    }
+  ]
+},
+{
+  
+  "text": "How do you handle unexpected changes or disruptions to your routine?",
+  "options": [
+    {
+      "text": "Excessive worry and difficulty adapting",
+      "condition": [
+        "Generalized Anxiety Disorder"
+      ]
+      
+    },
+    {
+      "text": "Flashbacks and heightened vigilance",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Impulsive reactions and mood swings",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "In challenging situations, what physical symptoms do you experience?",
+  "options": [
+    {
+      "text": "Fatigue, changes in appetite, and feelings of worthlessness",
+      "condition": [
+        "Depression"
+      ]
+      
+    },
+    {
+      "text": "Increased heart rate and hypervigilance",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Racing thoughts, increased energy, and impulsivity",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+    
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+    
+    }
+  ]
+},
+{
+  
+  "text": "How would you describe your overall mood on a typical day?",
+  "options": [
+    {
+      "text": "Persistent sadness and lack of interest",
+      "condition": [
+        "Depression"
+      ]
+    
+    },
+    {
+      "text": "Emotional numbness and detachment",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Extreme highs and lows in mood",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How do you respond to criticism or perceived rejection?",
+  "options": [
+    {
+      "text": "Overwhelming self-doubt and sadness",
+      "condition": [
+        "Depression"
+      ]
+      
+    },
+    {
+      "text": "Hyperarousal and difficulty trusting others",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+    
+    },
+    {
+      "text": "Defensive reactions and irritability",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "When facing a difficult decision, what thought process do you typically go through?",
+  "options": [
+    {
+      "text": "Procrastination and indecisiveness",
+      "condition": [
+        "Attention Deficit Hyperactivity Disorder (ADHD)"
+      ]
+      
+    },
+    {
+      "text": "Flashbacks and avoidance",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Impulsive decision-making and risk-taking",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How often do you experience intrusive thoughts or memories?",
+  "options": [
+    {
+      "text": "Frequently reliving past traumas",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Difficulty concentrating due to intrusive thoughts",
+      "condition": [
+        "Attention Deficit Hyperactivity Disorder (ADHD)"
+      ]
+      
+    },
+    {
+      "text": "Racing thoughts and impulsivity",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How would you describe your self-esteem and self-worth?",
+  "options": [
+    {
+      "text": "Persistent feelings of inadequacy and worthlessness",
+      "condition": [
+        "Depression"
+      ]
+      
+    },
+    {
+      "text": "Difficulty connecting with emotions and self-isolation",
+      "condition": [
+        "Schizophrenia"
+      ]
+      
+    },
+    {
+      "text": "Grandiosity and inflated self-esteem",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How do you react to situations that are out of your control?",
+  "options": [
+    {
+      "text": "Anxiety and excessive worrying",
+      "condition": [
+        "Generalized Anxiety Disorder"
+      ]
+      
+    },
+    {
+      "text": "Flashbacks and heightened startle response",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Impulsive actions and reckless behavior",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How often do you experience periods of intense sadness or emptiness?",
+  "options": [
+    {
+      "text": "Pervasive feelings of despair and hopelessness",
+      "condition": [
+        "Depression"
+      ]
+      
+    },
+    {
+      "text": "Emotional numbness and disconnection",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Mood swings and extreme highs and lows",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "Describe your ability to concentrate and complete tasks.",
+  "options": [
+    {
+      "text": "Persistent difficulty focusing and completing tasks",
+      "condition": [
+        "Attention Deficit Hyperactivity Disorder (ADHD)"
+      ]
+      
+    },
+    {
+      "text": "Hyperfocus on potential threats and difficulty relaxing",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Periods of intense focus followed by distractibility",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How do you respond to situations that provoke anxiety?",
+  "options": [
+    {
+      "text": "Avoidance and intense fear",
+      "condition": [
+        "Social Anxiety Disorder"
+      ]
+      
+    },
+    {
+      "text": "Flashbacks and heightened alertness",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Impulsive actions and risk-taking",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "What is your typical reaction to unexpected events?",
+  "options": [
+    {
+      "text": "Overwhelmed with fear and anxiety",
+      "condition": [
+        "Generalized Anxiety Disorder"
+      ]
+      
+    },
+    {
+      "text": "Hyperarousal and emotional numbness",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Impulsive reactions and mood swings",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How do you perceive and interpret social cues from others?",
+  "options": [
+    {
+      "text": "Fear of judgment and constant worry about social interactions",
+      "condition": [
+        "Social Anxiety Disorder"
+      ]
+    
+    },
+    {
+      "text": "Difficulty trusting others and feeling detached",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Rapid changes in social behavior and energy levels",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+    
+    }
+  ]
+},
+{
+  
+  "text": "How would you describe your level of energy on a regular basis?",
+  "options": [
+    {
+      "text": "Persistent fatigue and lack of motivation",
+      "condition": [
+        "Depression"
+      ]
+      
+    },
+    {
+      "text": "Hyperarousal and difficulty relaxing",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Periods of high energy and impulsivity",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "When faced with a challenge, how do you approach problem-solving?",
+  "options": [
+    {
+      "text": "Excessive worry and difficulty making decisions",
+      "condition": [
+        "Generalized Anxiety Disorder"
+      ]
+      
+    },
+    {
+      "text": "Avoidance and emotional detachment",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Impulsive decision-making and risk-taking",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How do you handle conflicts in your relationships?",
+  "options": [
+    {
+      "text": "Self-blame and avoidance of confrontation",
+      "condition": [
+        "Depression"
+      ]
+      
+    },
+    {
+      "text": "Hyperarousal and difficulty trusting others",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Impulsive reactions and intense anger",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How do you perceive time and events in your life?",
+  "options": [
+    {
+      "text": "Sluggishness and feeling stuck in the past",
+      "condition": [
+        "Depression"
+      ]
+      
+    },
+    {
+      "text": "Flashbacks and time distortion",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Rapid changes in goals and plans",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How do you manage overwhelming emotions?",
+  "options": [
+    {
+      "text": "Difficulty regulating emotions and frequent mood swings",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "Emotional detachment and feeling numb",
+      "condition": [
+        "Schizophrenia"
+      ]
+      
+    },
+    {
+      "text": "Engaging in impulsive behaviors for relief",
+      "condition": [
+        "Depression"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How do you react to perceived threats or danger?",
+  "options": [
+    {
+      "text": "Excessive worry and hypervigilance",
+      "condition": [
+        "Generalized Anxiety Disorder"
+      ]
+      
+    },
+    {
+      "text": "Flashbacks and intense fear",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Impulsive actions and risk-taking",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How do you experience pleasure and joy in your life?",
+  "options": [
+    {
+      "text": "Persistent difficulty experiencing pleasure and joy",
+      "condition": [
+        "Depression"
+      ]
+      
+    },
+    {
+      "text": "Emotional numbness and disconnection",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Periods of intense happiness followed by mood swings ",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "How is your sleep pattern most nights?",
+  "options": [
+    {
+      "text": "Difficulty falling asleep due to racing thoughts",
+      "condition": [
+        "Attention Deficit Hyperactivity Disorder (ADHD)"
+      ]
+      
+    },
+    {
+      "text": "Nightmares and disturbed sleep",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)",
+        "Schizophrenia"
+      ]
+      
+    },
+    {
+      "text": "Periods of high energy and decreased need for sleep",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+},
+{
+  
+  "text": "Describe your social interactions and relationships.",
+  "options": [
+    {
+      "text": "Intense fear of judgment and rejection",
+      "condition": [
+        "Social Anxiety Disorder"
+      ]
+      
+    },
+    {
+      "text": "Difficulty trusting others; feeling detached",
+      "condition": [
+        "Post-Traumatic Stress Disorder (PTSD)"
+      ]
+      
+    },
+    {
+      "text": "Rapid shifts in social behavior and energy levels",
+      "condition": [
+        "Bipolar Disorder"
+      ]
+      
+    },
+    {
+      "text": "None of these signs",
+      "condition": null
+      
+    }
+  ]
+}]

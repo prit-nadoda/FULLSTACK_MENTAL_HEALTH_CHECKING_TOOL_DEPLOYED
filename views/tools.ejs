@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>psyCheck | Tools & Services</title>
+  <link rel="shortcut icon" href="/images/tabLogo.png" type="image/x-icon">
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- swiper css link  -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="/stylesheets/tools.css">
+</head>
+
+<body>
+
+  <%- include('./partials/navbar') %>
+
+  <section class="report" id="report">
+
+    <h3 style="padding: 20px; text-align: center; width: 100%; background: #fff; color: #333; font-size: 3rem; margin-bottom: 40px">Explore Our Tools & Services</h3>
+
+
+
+    <div class="box-container">
+
+      <div class="box">
+        <img src="/images/monitoring.png" alt="icon">
+        <h3>Mental Health Assessment</h3>
+        <p>A confidential tool to assess your mental well-being. Gain valuable insights and proactive steps toward emotional wellness.
+        </p>
+      </div>
+
+      <div class="box">
+        <img src="/images/medical-file.png" alt="icon">
+        <h3>Health Reports & Signs</h3>
+        <p>personalized mental health reports with our comprehensive assessment tool. Receive insights into specific mental conditions and signs you are experiencing.
+        </p>
+      </div>
+
+      <div class="box">
+        <img src="/images/advice.png" alt="icon">
+        <h3>Recommendations & Tips</h3>
+        <p>Your personalized guide to mental well-being. Tailored advice for a positive mindset, offering support for various conditions.
+        </p>
+      </div>
+
+      <div class="box">
+        <img src="/images/guidance.png" alt="icon">
+        <h3>Expert's Support</h3>
+        <p>Access personalized assistance from mental health experts. Receive guidance for your specific concerns. Take proactive steps towards enhanced emotional well-being..
+        </p>
+      </div>
+    </div>
+    <div class="bg-fff" style="width: 100%; display: inline-block; margin-top: 30px; background: #fff; padding: 50px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);;">
+      
+      <p style="font-size: 2rem; text-align: center;">We offer you a comprehensive and confidential tool designed to empower individuals on their journey towards mental well-being. Through a thoughtful and evidence-based approach, our assessment evaluates various aspects of mental health, including emotional well-being, stress levels, and potential symptoms associated with conditions such as anxiety, depression, and more. </p> <p style="width: 100%; display: inline-block; padding-top: 20px; font-size: 2rem; text-align: center;"> The assessment aims to provide valuable insights into one's mental health status, enabling users to better understand their emotional state and identify areas that may benefit from additional support. By fostering self-awareness and early detection of potential mental health challenges.</p>
+  
+      <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+          <a href="/test" class="btn">Start your journey</a>
+      </div>
+    </div>
+    
+
+  </section>
+
+  <%- include('./partials/footer') %>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const menuBtn = document.getElementById("menu-btn");
+      const navbar = document.querySelector(".navbar");
+
+      menuBtn.addEventListener("click", function() {
+        navbar.classList.toggle("active");
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>

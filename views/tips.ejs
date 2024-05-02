@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>psyCheck | Health Guide</title>
+  <link rel="shortcut icon" href="/images/tabLogo.png" type="image/x-icon">
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- swiper css link  -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="/stylesheets/about.css">
+
+  <style>
+    .aboutus {
+      margin-top: 80px;
+      padding: 5rem 7%;
+      background:#b1d8f1;
+    }
+
+    .aboutus .row .content {
+      padding: 50px;
+      background: #fff;
+    }
+
+    .aboutus .row .content h3 {
+      font-size: 3rem;
+    }
+
+    .aboutus .row .content h4 {
+      font-size: 2.5rem;
+      padding-top: 30px;
+    }
+
+    .aboutus .row .content p,
+    li {
+      font-size: 1.8rem;
+      padding: 8px;
+
+    }
+
+    .aboutus .row .content .btn-container {
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .card-container {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      gap: 2rem;
+    }
+
+    .card{
+        max-width: 400px;
+        padding: 20px;
+        background: #fff;
+    }
+
+    .card .image-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card .card-image{
+        height: 130px;
+        width: 130px;
+        border: #3162d9 solid 3px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin: 20px;
+        
+    }
+
+    .card .card-image img{
+        height: 130px;
+        width: 130px;
+        object-fit: cover;
+    }
+    .card .card_info{
+        justify-content: center;
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .card .card_info h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .card .card_info p{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .card .btn-container{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <%- include('./partials/navbar') %>
+
+  <section class="aboutus">
+    <div class="heading">
+      <strong></strong>
+
+    </div>
+
+    <div class="row">
+      <div class="image">
+        <!-- Add an image here if needed -->
+      </div>
+
+      <div class="content" style="box-shadow:0 .5rem 1rem rgba(0, 0, 0, 0.1);">
+        <h3><%= conData.condition %></h3>
+        <p><%= conData.info %></p>
+
+
+
+        <h4>Recommendations & tips</h4>
+        <ul>
+          <% conData.tips.forEach(tip => { %>
+          <li><%-tip  %></li>
+          <% }) %>
+
+        </ul>
+
+
+      </div>
+
+    </div>
+
+    <% if (exData.length>0) { %>
+     
+      <h3 style="padding: 20px; text-align: center; width: 100%; background: #fff; font-size: 2.5rem; margin-top: 20px;">Recommended Experts</h3>
+    <% } %>
+
+    <div class="card-container">
+
+        <% exData.forEach(expert => { %>
+            <div class="card" style="box-shadow:0 .5rem 1rem rgba(0, 0, 0, 0.1);">
+                <div class="image-container">
+                    <div class="card-image">
+                      <img src="/images/<%=expert.profileimage%>" alt="someimage">
+                    </div>
+                </div>
+                <div class="card_info">
+                  <h3><%=expert.name%></h3>
+                  <p><%=expert.expertise%></p>
+                </div>
+                <div class="btn-container">
+                  <a href="/exprofile/<%=expert.name%>" class="btn">View Profile</a>
+                </div>
+              </div>
+        <% }) %>
+
+      
+
+      
+    </div>
+  </section>
+
+  <%- include('./partials/footer') %>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const menuBtn = document.getElementById("menu-btn");
+      const navbar = document.querySelector(".navbar");
+
+      menuBtn.addEventListener("click", function() {
+        navbar.classList.toggle("active");
+      });
+    });
+  </script>
+
+</body>
+
+</html>

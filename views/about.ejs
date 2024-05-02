@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>psyCheck | About Us</title>
+  <link rel="shortcut icon" href="/images/tabLogo.png" type="image/x-icon">
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- swiper css link  -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="/stylesheets/about.css">
+
+  <style>
+    .aboutus{
+        margin-top: 80px;
+        padding: 5rem 7%;
+        background: #b1d8f1;
+    }
+
+    .aboutus .row .content{
+        padding: 50px;
+        background: #fff;
+    }
+
+    .aboutus .row .content h3{
+        font-size: 3rem;
+    }
+    .aboutus .row .content h4{
+        font-size: 2.5rem;
+        padding-top: 30px;
+    }
+    .aboutus .row .content p,li{
+        font-size: 1.8rem;
+        padding: 8px;
+
+    }
+    .aboutus .row .content .btn-container{
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+
+
+    
+  </style>
+</head>
+
+<body>
+  <%- include('./partials/navbar') %>
+
+  <section class="aboutus">
+    <div style="width: 100%; background: #fff; padding: 20px; box-shadow:0 .5rem 1rem rgba(0, 0, 0, 0.1);" class="heading">
+      <span >About </span><strong><span style="color: #fcb01e">psy</span><span style=" color: #3162d9;">Check</span></strong>
+      
+    </div>
+
+    <div class="row">
+      <div class="image">
+        <!-- Add an image here if needed -->
+      </div>
+
+      <div class="content" style="box-shadow:0 .5rem 1rem rgba(0, 0, 0, 0.1);">
+        <h3>Welcome to <strong><span style="color: #fcb01e">psy</span><span style=" color: #3162d9;">Check</span></strong></h3>
+        <p>Our mission is to provide a supportive environment where individuals can gain insights into their mental health,
+          access valuable resources, and embark on a journey toward holistic well-being.</p>
+
+        <h4>Our Vision</h4>
+        <p>At <strong><span style="color: #fcb01e">psy</span><span style=" color: #3162d9;">Check</span></strong>, we envision a world where mental health is prioritized and destigmatized. We believe that understanding one's mental well-being is a crucial step toward fostering a healthier and happier life.</p>
+
+        <h4>What We Offer</h4>
+        <ul>
+          <li>Personalized Mental Health Assessments: Our platform offers comprehensive mental health assessments designed to provide you with personalized insights based on your responses.</li>
+          <li>Empowering Resources: Access a wealth of resources, including tips, articles, and self-help tools, to empower you on your mental health journey.</li>
+          <li>Community Support: Connect with a community of individuals who share similar experiences, fostering a sense of belonging and support.</li>
+        </ul>
+
+        <h4>Why Mental Health Matters</h4>
+        <p>Taking care of your mental health is an essential aspect of overall well-being. It influences how you think, feel, and act, impacting your relationships, work, and daily life. By prioritizing mental health, you are investing in yourself and creating a foundation for a fulfilling and balanced life.</p>
+
+        <div class="btn-container">
+            <a href="/test" class="btn">Test your mental health now</a>
+          </div>    
+    </div>
+    
+    </div>
+  </section>
+
+  <%- include('./partials/footer') %>
+
+  <script>document.addEventListener("DOMContentLoaded", function () {
+    const menuBtn = document.getElementById("menu-btn");
+    const navbar = document.querySelector(".navbar");
+  
+    menuBtn.addEventListener("click", function () {
+      navbar.classList.toggle("active");
+    });
+  });
+  </script>
+
+</body>
+
+</html>

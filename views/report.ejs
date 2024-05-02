@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>psyCheck | Test Report</title>
+  <link rel="shortcut icon" href="/images/tabLogo.png" type="image/x-icon">
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- swiper css link  -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="/stylesheets/report.css">
+</head>
+
+<body>
+
+  <%- include('./partials/navbar') %>
+
+  <section class="report" id="report">
+
+    <h3 style="padding: 20px; text-align: center; width: 100%; background: #fff; color: #333; font-size: 3rem; margin-bottom: 40px">Your Test Report Of <font color="#3162d9"><%=reportData.date%></font> </h3>
+
+
+    <div class="box-container">
+  
+        <% reportData.conditions.forEach(elem => { %>
+        
+          <div class="box">
+            <img src="<%= elem.icon %>" alt="icon">
+            <h3><%= elem.condition%></h3>
+            <p style="text-align: left; color: #3162d9; font-weight: 700;">signs:
+            <ul>
+              <% elem.signs.forEach(sign => { %>
+                <li style="text-align: left; font-size: 1.5rem; color: #666; margin: 0 20px;"><%= sign%></li>
+              <% }) %>
+            </ul>
+            </p>
+            <div class="btn-container">
+              <a href="/tips/<%=elem.condition%>" class="btn" style="margin-top: 50px;">Take Guidance</a>
+            </div> 
+          </div>
+        <% }) %>  
+      
+      
+
+  </section>
+
+  <%- include('./partials/footer') %>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const menuBtn = document.getElementById("menu-btn");
+      const navbar = document.querySelector(".navbar");
+
+      menuBtn.addEventListener("click", function() {
+        navbar.classList.toggle("active");
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>

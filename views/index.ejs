@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>psyChek | Mental Health Checker</title>
+  <link rel="shortcut icon" href="/images/tabLogo.png" type="image/x-icon">
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- swiper css link  -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="/stylesheets/index.css">
+</head>
+
+<body>
+
+  <%- include('./partials/navbar') %>
+  
+  <!-- header end -->
+
+  <!-- home -->
+
+  <section class="home" id="home">
+
+
+    <div class="content">
+      <h3>Empower Your Mind</h3>
+      <h4>Take the Mental Health Check</h4>
+      <p>Your mental health matters. Begin your self-discovery with our easy-to-use mental health test. Take a few minutes to understand your mental well-being and receive personalized insights.</p>
+      <a href="/test" class="btn">Test your health</a>
+    </div>
+
+
+
+
+  </section>
+
+  <!-- home end -->
+
+  <!-- about us section-->
+
+  <section class="about" id="about">
+
+    <h3 style="padding: 20px; text-align: center; width: 100%; background: #fff; color: #333; font-size: 3rem; margin-bottom: 40px">About Us</h3>
+
+    <div class="row">
+
+      <div class="image">
+        <img src="/images/homeBanner4.png" alt="">
+      </div>
+
+      <div class="content">
+        <h3>Empowering Lives, One Health Check at a Time</h3>
+        <p>Welcome to <strong><span style="color: #fcb01e">psy</span><span style=" color: #3162d9;">Check</span></strong>, a space dedicated to mental well-being and self-discovery. Our mission is to provide a supportive environment where individuals can gain insights into their mental health, access valuable resources, and embark on a journey toward holistic well-being.</p>
+        <p>At <strong><span style="color: #fcb01e">psy</span><span style=" color: #3162d9;">Check</span></strong>, we envision a world where mental health is prioritized and destigmatized. We believe that understanding one's mental well-being is a crucial step toward fostering a healthier and happier life.</p>
+        <a href="/about" class="btn">read more</a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- about end -->
+
+
+  <!-- services -->
+
+  <section class="services" id="services">
+
+    <h3 style="padding: 20px; text-align: center; width: 100%; background: #fff; color: #333; font-size: 3rem; margin-bottom: 40px">Tools & Services</h3>
+
+    <div class="box-container">
+
+      <div class="box">
+        <img src="/images/monitoring.png" alt="icon">
+        <h3>Mental Health Assessment</h3>
+        <p>A confidential tool to assess your mental well-being. Gain valuable insights and proactive steps toward emotional wellness.
+        </p>
+      </div>
+
+      <div class="box">
+        <img src="/images/medical-file.png" alt="icon">
+        <h3>Health Reports & Signs</h3>
+        <p>personalized mental health reports with our comprehensive assessment tool. Receive insights into specific mental conditions and signs you are experiencing.
+        </p>
+      </div>
+
+      <div class="box">
+        <img src="/images/guidance.png" alt="icon">
+        <h3>Expert's Support</h3>
+        <p>Access personalized assistance from mental health experts. Receive guidance for your specific concerns. Take proactive steps towards enhanced emotional well-being..
+        </p>
+      </div>
+
+      
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <a href="/tools" class="btn" style="margin-top: 2rem;">View all</a>
+    </div>
+
+  </section>
+
+  <!-- services end-->
+
+  <!-- team section -->
+
+  <section class="team" id="team">
+
+    <h3 style="padding: 20px; text-align: center; width: 100%; background: #fff; color: #333; font-size: 3rem; margin-bottom: 40px">Our Experts</h3>
+
+    <div class="card-container">
+
+      <% exData.forEach(expert => { %>
+          <div class="card" style="box-shadow:0 .5rem 1rem #929292;">
+              <div class="image-container">
+                  <div class="card-image">
+                    <img src="/images/<%=expert.profileimage%>" alt="someimage">
+                  </div>
+              </div>
+              <div class="card_info">
+                <h3><%=expert.name%></h3>
+                <p><%=expert.expertise%></p>
+              </div>
+              <div class="btn-container">
+                <a href="/exprofile/<%=expert.name%>" class="btn">View Profile</a>
+              </div>
+            </div>
+      <% }) %>
+
+    
+      
+    
+  </div>
+
+  <div style="display: flex; justify-content: center; align-items: center;">
+    <a href="/allexperts" class="btn" style="margin-top: 50px;">View all</a>
+  </div>
+  </section>
+
+  <!-- team section ends -->
+
+  
+
+  <!-- contact -->
+
+  <section class="contact" id="contact">
+
+    <h3 style="padding: 20px; text-align: center; width: 100%; background: #fff; color: #333; font-size: 3rem; margin-bottom: 40px">Contact Us</h3>
+
+    <form action="/contact" method="post">
+
+      <span>your Identity :</span>
+      <div class="inputBox">
+        <input type="text" placeholder="full name" name="fullname">
+        <input type="text" placeholder="username" name="username">
+      </div>
+
+      <span>your email :</span>
+      <input type="email" placeholder="enter your email" class="box" name="email">
+
+      <span>Select messege type :</span>
+      <select type="select" placeholder="enter your email" class="box" name="type">
+        <option value="Query">Query</option>
+        <option value="Feedback">Feedback</option>
+      </select>
+      
+      <span>your Query/Feedback :</span>
+      <textarea type="textarea" placeholder="write your query/Feedback" class="box" name="messege"></textarea>
+
+
+      <input type="submit" value="order now" class="btn">
+
+    </form>
+
+  </section>
+
+  <!-- contact ends-->
+
+  <!-- footer -->
+  <%- include('./partials/footer') %>
+  <!-- footer ends -->
+
+  <!-- swiper js link  -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <!-- custom js file link  -->
+  <script src="javascripts/script.js"></script>
+  <script>
+    function closeAlert() {
+      var alert = document.querySelector('.customAlert');
+      alert.style.display = 'none';
+    }
+  </script>
+
+</body>
+
+</html>

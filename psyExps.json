@@ -1,0 +1,112 @@
+[
+    {
+        "name":"Mr. Anmol Gohil",
+        "profileimage":"psychiatrist.jpg",
+        "expertise": "Psychiatrist",
+        "conditions":["Depression","Post-Traumatic Stress Disorder (PTSD)","Schizophrenia","Attention Deficit Hyperactivity Disorder (ADHD)","Bipolar Disorder","Anxiety Disorder"],
+        "email":"anmol@gmail.com"
+    },
+
+    {
+        "name":"Mr. Tarun Khair",
+        "profileimage":"psychologist.jpg",
+        "expertise": "Psychologist",
+        "conditions":["Depression","Post-Traumatic Stress Disorder (PTSD)","Schizophrenia","Attention Deficit Hyperactivity Disorder (ADHD)","Bipolar Disorder","Anxiety Disorder"],
+        "email":"tarun@gmail.com"
+    },
+
+    {
+        "name":"Ms. Sunita Kashyap",
+        "profileimage":"trauma-therapist.jpg",
+        "expertise": "Trauma Therapist",
+        "conditions":["Post-Traumatic Stress Disorder (PTSD)"],
+        "email":"sunita@gmail.com"
+    },
+
+    {
+        "name":"Mr. Gautam Nayak",
+        "profileimage":"csw.jpg",
+        "expertise": "Clinical Social Worker",
+        "conditions":["Depression","Post-Traumatic Stress Disorder (PTSD)","Bipolar Disorder","Anxiety Disorder"],
+        "email":"gautam@gmail.com"
+    },
+
+    {
+        "name":"Mrs. Kalyani j. Patel",
+        "profileimage":"cbt.jpg",
+        "expertise": "Cognitive Behavioral Therapist (CBT)",
+        "conditions":["Post-Traumatic Stress Disorder (PTSD)"],
+        "email":"kalyani@gmail.com"
+    },
+
+    {
+        "name":"Mrs. Anita kumbhkarni",
+        "profileimage":"pnp.jpg",
+        "expertise": "Psychiatric Nurse Practitione",
+        "conditions":["Depression","Schizophrenia","Bipolar Disorder","Anxiety Disorder"],
+        "email":"anita@gmail.com"
+    },
+
+    {
+        "name":"Mr. Kaushal Chauhan",
+        "profileimage":"psychotherapist.jpg",
+        "expertise": "Psychotherapist",
+        "conditions":["Schizophrenia"],
+        "email":"kaushal@gmail.com"
+    },
+
+    {
+        "name":"Mr. Satyam Nair",
+        "profileimage":"ot.jpg",
+        "expertise": "Occupational Therapist",
+        "conditions":["Schizophrenia","Attention Deficit Hyperactivity Disorder (ADHD)","Bipolar Disorder"],
+        "email":"satyam@gmail.com"
+    },
+
+    {
+        "name":"Mrs. Jyoti Gupta",
+        "profileimage":"neuropsychologist.jpg",
+        "expertise": "Neuropsychologist",
+        "conditions":["Attention Deficit Hyperactivity Disorder (ADHD)"],
+        "email":"jyoti@gmail.com"
+    },
+
+    {
+        "name":"Mr. Akash Limbachiya",
+        "profileimage":"et.jpg",
+        "expertise": "Educational Therapist",
+        "conditions":["Attention Deficit Hyperactivity Disorder (ADHD)"],
+        "email":"akash@gmail.com"
+    },
+
+    {
+        "name":"Ms. Jagruti Pandya",
+        "profileimage":"adhd.jpg",
+        "expertise": "ADHD Coach",
+        "conditions":["Attention Deficit Hyperactivity Disorder (ADHD)"],
+        "email":"jagruti@gmail.com"
+    },
+
+    {
+        "name":"Mrs. Garima Shah",
+        "profileimage":"myi.jpg",
+        "expertise": "Mindfulness & Yoga Instructor",
+        "conditions":["Anxiety Disorder"],
+        "email":"garima@gmail.com"
+    },
+
+    {
+        "name":"Mr. Vaibhav Khurana",
+        "profileimage":"adt.jpg",
+        "expertise": "Anxiety & Depression Therapist",
+        "conditions":["Anxiety Disorder","Depression"],
+        "email":"vaibhav@gmail.com"
+    },
+    {
+        "name":"Ms. Khushali Chopra",
+        "profileimage":"amt.jpg",
+        "expertise": "Art & Music Therapist",
+        "conditions":["Depression"],
+        "email":"vaibhav@gmail.com"
+    }
+]

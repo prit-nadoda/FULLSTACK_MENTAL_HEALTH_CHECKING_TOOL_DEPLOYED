@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>psyCheck | Log In</title>
+  <link rel="shortcut icon" href="/images/tabLogo.png" type="image/x-icon">
+
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <!-- swiper css link  -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+  <!-- custom css file link  -->
+  <link rel="stylesheet" href="/stylesheets/register.css">
+</head>
+
+<body>
+  <section class="contact" id="contact">
+    <a href="/" class="btn" style="margin-bottom: 30px;">Back</a><br>
+
+    <form action="/login" method="post">
+        <dv class="loginlogo">
+            <div class="logo"></div>
+        </dv>
+        <h3 class="heading">Create a <span style="color: #fcb01e; font-size: 3.5rem;">psy</span ><span style="color: #3162d9; font-size: 3.5rem;">Check</span> account</h3>
+        <p class="error" style="color: red; text-align: center; font-size: 1.6rem;"><%= error  %></p>
+        <input type="text" placeholder="create a username" class="box" name="username">
+        <input type="password" placeholder="create a passowrd" class="box" name="password">
+
+      <div class="loginsubmit">
+        <input type="submit" value="Log In" class="btn">
+      </div>
+      <div class="loginsubmit">
+        <br>
+        <span>Don't have an account? <a href="/register">Sign Up</a></span>
+      </div>
+    </form>
+
+  </section>
+
+  <!-- swiper js link  -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <!-- custom js file link  -->
+  <script src="javascripts/script.js"></script>
+</body>
+
+</html>

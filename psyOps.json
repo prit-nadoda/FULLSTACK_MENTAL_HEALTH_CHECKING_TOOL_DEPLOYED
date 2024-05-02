@@ -1,0 +1,527 @@
+  [{
+  
+  "text": "Racing thoughts and restlessness",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Flashbacks and emotional numbness",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Mood swings and impulsive behavior",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Experiencing heightened stress and tension",
+  "condition": [
+    "Anxiety Disorder"
+  ]
+},
+{
+  
+  "text": "Persistent feelings of sadness and hopelessness",
+  "condition": [
+    "Depression"
+  ]
+},
+{
+  
+  "text": "Avoidance and emotional detachment",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)","Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Impulsive behaviors and reckless decision-making",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Difficulty falling asleep due to racing thoughts",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+ 
+  "text": "Nightmares and disturbed sleep",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)",
+    "Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Periods of high energy and decreased need for sleep",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Intense fear of judgment and rejection",
+  "condition": [
+    "Anxiety Disorder"
+  ]
+},
+{
+  
+  "text": "Overwhelmed with worry and fear",
+  "condition": [
+    "Anxiety Disorder"
+  ]
+},
+{
+ 
+  "text": "Extreme irritability and anger",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)",
+    "Schizophrenia"
+  ]
+},
+{
+ 
+  "text": "Excessive worry and difficulty adapting",
+  "condition": [
+    "Anxiety Disorder"
+  ]
+},
+{
+  
+  "text": "Flashbacks and heightened vigilance",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Impulsive reactions and mood swings",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Fatigue, changes in appetite, and feelings of worthlessness",
+  "condition": [
+    "Depression"
+  ]
+},
+{
+  
+  "text": "Increased heart rate and hypervigilance",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Racing thoughts, increased energy, and impulsivity",
+  "condition": [
+    "Schizophrenia"
+  ]
+},
+{
+ 
+  "text": "Persistent sadness and lack of interest",
+  "condition": [
+    "Depression"
+  ]
+},
+{
+  
+  "text": "Emotional numbness and detachment",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)","Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Extreme highs and lows in mood",
+  "condition": [
+    "Bipolar Disorder","Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Overwhelming self-doubt and sadness",
+  "condition": [
+    "Depression"
+  ]
+},
+{
+  
+  "text": "Hyperarousal and difficulty trusting others",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Defensive reactions and irritability",
+  "condition": [
+    "Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Difficulty trusting others; feeling detached",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Rapid shifts in social behavior and energy levels",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Impulsive decision-making and risk-taking",
+  "condition": [
+    "Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Frequently reliving past traumas",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)","Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Difficulty concentrating due to intrusive thoughts",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Racing thoughts and impulsivity",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Persistent feelings of inadequacy and worthlessness",
+  "condition": [
+    "Depression"
+  ]
+},
+{
+ 
+  "text": "Difficulty connecting with emotions and self-isolation",
+  "condition": [
+    "Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Grandiosity and inflated self-esteem",
+  "condition": [
+    "Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Anxiety and excessive worrying",
+  "condition": [
+    "Anxiety Disorder"
+  ]
+},
+{
+  
+  "text": "Flashbacks and heightened startle response",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Impulsive actions and reckless behavior",
+  "condition": [
+    "Bipolar Disorder","Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Pervasive feelings of despair and hopelessness",
+  "condition": [
+    "Depression"
+  ]
+},
+{
+  
+  "text": "Emotional numbness and disconnection",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Mood swings and extreme highs and lows",
+  "condition": [
+    "Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Persistent difficulty focusing and completing tasks",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Procrastination and indecisiveness",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Flashbacks and avoidance",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Avoidance and intense fear",
+  "condition": [
+    "Anxiety Disorder"
+  ]
+},
+{
+  
+  "text": "Flashbacks and heightened alertness",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Impulsive actions and risk-taking",
+  "condition": [
+    "Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Overwhelmed with fear and anxiety",
+  "condition": [
+    "Anxiety Disorder"
+  ]
+},
+{
+  
+  "text": "Hyperarousal and emotional numbness",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)","Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Impulsive reactions and mood swings",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Fear of judgment and constant worry about social interactions",
+  "condition": [
+    "Anxiety Disorder"
+  ]
+},
+{
+  
+  "text": "Difficulty trusting others and feeling detached",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Rapid changes in social behavior and energy levels",
+  "condition": [
+    "Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Persistent fatigue and lack of motivation",
+  "condition": [
+    "Depression"
+  ]
+},
+{
+  
+  "text": "Hyperarousal and difficulty relaxing",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Periods of high energy and impulsivity",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Excessive worry and difficulty making decisions",
+  "condition": [
+    "Anxiety Disorder"
+  ]
+},
+{
+  
+  "text": "Avoidance and emotional detachment",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Impulsive decision-making and risk-taking",
+  "condition": [
+    "Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Self-blame and avoidance of confrontation",
+  "condition": [
+    "Depression"
+  ]
+},
+{
+ 
+  "text": "Hyperarousal and difficulty trusting others",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Impulsive reactions and intense anger",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Sluggishness and feeling stuck in the past",
+  "condition": [
+    "Depression"
+  ]
+},
+{
+ 
+  "text": "Hyperfocus on potential threats and difficulty relaxing",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Periods of intense focus followed by distractibility",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Difficulty regulating emotions and frequent mood swings",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Emotional detachment and feeling numb",
+  "condition": [
+    "Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Engaging in impulsive behaviors for relief",
+  "condition": [
+    "Depression"
+  ]
+},
+{
+  
+  "text": "Excessive worry and hypervigilance",
+  "condition": [
+    "Anxiety Disorder"
+  ]
+},
+{
+  
+  "text": "Flashbacks and intense fear",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Impulsive actions and risk-taking",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+},
+{
+  
+  "text": "Persistent difficulty experiencing pleasure and joy",
+  "condition": [
+    "Depression"
+  ]
+},
+{
+  
+  "text": "Emotional numbness and disconnection",
+  "condition": [
+    "Attention Deficit Hyperactivity Disorder (ADHD)"
+  ]
+},
+{
+  
+  "text": "Periods of intense happiness followed by mood swings",
+  "condition": [
+    "Schizophrenia"
+  ]
+},
+{
+  
+  "text": "Flashbacks and time distortion",
+  "condition": [
+    "Post-Traumatic Stress Disorder (PTSD)"
+  ]
+},
+{
+  
+  "text": "Rapid changes in goals and plans",
+  "condition": [
+    "Bipolar Disorder"
+  ]
+}]
