@@ -427,7 +427,7 @@
     <div class="card">
       <div class="card__header">
         <div class="card__profile">
-          <img src="/images/uploads/<%=user.profileimage%>" alt="A man smiling" />
+          <img src="/images/uploads/<%=user.profileimage && "defailt.png" %>" alt="A man smiling" />
         </div>
         <div class="card__name">
           <h2><%=user.fullname%></h2>
@@ -464,12 +464,12 @@
           <% } %>
 
           <% if (isEdited) { %>
-            <% isEdited = false;%>
-            <div class="customAlert" style="width: 100%;">
-              <span class="alert-message" style="font-size: 1.5rem;">Profile is<strong>updated!</strong></span>
-              <button class="close-btn" onclick="closeAlert()">Close</button>
-            </div>
-            <% } %>
+          <% isEdited = false;%>
+          <div class="customAlert" style="width: 100%;">
+            <span class="alert-message" style="font-size: 1.5rem;">Profile is<strong>updated!</strong></span>
+            <button class="close-btn" onclick="closeAlert()">Close</button>
+          </div>
+          <% } %>
 
 
           <% if (user.reports.length > 0) { %>
