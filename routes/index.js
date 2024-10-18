@@ -18,6 +18,7 @@ var localStrategy = require("passport-local");
 var url = require("url");
 var upload = require("./multer");
 const users = require('./users');
+const { log } = require('console');
 
 
 passport.use(new localStrategy(userModel.authenticate()))
@@ -378,7 +379,6 @@ router.post('/test', async function (req, res) {
   try {
     const userResponses = req.body; //form mathi answeres lidha
     const selectedOptions = Object.values(userResponses); //teni unwanted keys remove kri
-    
     const optionData = await optionModel.find(); //optionModel na * data lidha
     var conditionArray = []
     for (const option of selectedOptions) {  //ee * data sathe selectedOptions na badha data compare kari 
